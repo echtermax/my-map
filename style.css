@@ -1,0 +1,16 @@
+body 	{background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(73, 73, 74));
+		color: rgb(227, 227, 227);}
+
+.Link2D	{text-decoration: none;
+		color: rgb(227, 227, 227);
+		font-size: 32px;}
+
+.sidebar {width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  background: rgb(51, 49, 49);
+  overflow-x: hidden;
+  padding: 8px 0;
+}
