@@ -1,16 +1,5 @@
 <html>
     <head>
-          <script>
-            window.onload = function() {
-                var path = window.location.pathname;
-                if (path.endsWith('index.html')) {
-                    path = path.substr(path, path.length - 'index.html'.length);
-                }
-                var url = 'https://play.workadventu.re/_/global/'+window.location.host+path+'map.json';
-                document.getElementById('mapLink').href = url;
-                document.getElementById('mapLink').innerText = Hier geht es zur 2D Welt!!!;
-            };
-            </script>
         <title>2D WORLD BY MAX</title>
   
         <link rel="stylesheet" type="text/css" href="style.css">
@@ -25,7 +14,7 @@
         </div> -->
         
         <div style="text-align: center;">
-            <a class="Link2D" id="mapLink" href="">Hier geht es zu der 2D Welt!!!</a>
+            <a class="Link2D" id="mapLink" href="var url = 'https://play.workadventu.re/_/global/'+window.location.host+path+'map.json'">Hier geht es zu der 2D Welt!!!</a>
         </div>
        
     </body>
