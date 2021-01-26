@@ -4,3 +4,9 @@ body 	{background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(73, 73, 74));
 .Link2D	{text-decoration: none;
 		color: rgb(227, 227, 227);
 		font-size: 32px;}
+
+h1 {text-align: center; color: #FF9800; font-size: 85; font-weight: bold;}
+
+.LinkWA {text-decoration: none; color: white;}
+
+.TextCredits {position: absolute; bottom: 8px; right: 16px;}
